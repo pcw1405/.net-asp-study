@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Layouts\SpecialLayout\Css\" />
+    <Folder Include="Layouts\SpecialLayout\Js\" />
+    <Folder Include="Layouts\SpecialLayout\Img\" />
+  </ItemGroup>
+
 </Project>

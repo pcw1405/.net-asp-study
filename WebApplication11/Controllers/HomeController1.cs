@@ -8,5 +8,10 @@ namespace WebApplication11.Controllers
         {
             return "My First Application!";
         }
+
+        public string Alpha()
+        {
+            return "My First Application!";
+        }
     }
 }
