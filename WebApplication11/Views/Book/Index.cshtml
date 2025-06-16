@@ -1,0 +1,27 @@
+﻿@model IEnumerable<WebApplication11.Models.Book>
+
+<h2>등록된 도서 목록</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>제목</th>
+            <th>저자</th>
+            <th>요약</th>
+            <th>출판사</th>
+            <th>출판년도</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Writer</td>
+                <td>@book.Summary</td>
+                <td>@book.Publisher</td>
+                <td>@book.Published_date</td>
+            </tr>
+        }
+    </tbody>
+</table>

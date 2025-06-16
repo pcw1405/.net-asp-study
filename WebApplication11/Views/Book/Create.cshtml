@@ -1,0 +1,27 @@
+﻿@model WebApplication11.Models.Book
+
+<h2>도서 등록</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>제목</label>
+        <input asp-for="Title" />
+    </div>
+    <div>
+        <label>저자</label>
+        <input asp-for="Writer" />
+    </div>
+    <div>
+        <label>요약</label>
+        <input asp-for="Summary" />
+    </div>
+    <div>
+        <label>출판사</label>
+        <input asp-for="Publisher" />
+    </div>
+    <div>
+        <label>출판년도</label>
+        <input asp-for="Published_date" type="number" />
+    </div>
+    <button type="submit">등록</button>
+</form>
